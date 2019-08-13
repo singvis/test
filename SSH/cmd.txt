@@ -1,0 +1,3 @@
+show run | in host
+show ip int br
+show clock
