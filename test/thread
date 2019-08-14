@@ -1,0 +1,20 @@
+#coding:utf-8
+
+import time , threading
+
+def loop():
+    print('thread %s is running...' %threading.current_thread().name)
+    n = 0
+    star_time =time.time()
+    while n < 5:
+        n += 1
+        print('thread %s >>> %s' % (threading.current_thread().name , n))
+        time.sleep(1)
+    print('thread %s ended.' % threading.current_thread().name)
+    stop_time = time.time()
+    print('总花费时间：' + str(stop_time - star_time))
+print('thread { %s } is running...' % threading.current_thread().name)    #主线程
+t = threading.Thread(target=loop,name='LoopThread')     #子线程
+t.start()
+t.join()
+print('thread { %s } ended.' %threading.current_thread().name)
