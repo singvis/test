@@ -7,7 +7,7 @@
 import logging
 logging.getLogger("kamene.runtime").setLevel(logging.ERROR)  # 清除报错
 from kamene.all import *
-from Win_get_key import get_key
+from Tools.Get_ifname import get_ifname
 import platform
 
 
@@ -19,7 +19,7 @@ def scapy_iface(ifname):
             # print(x, y)
             if y.pcap_name is not None:
                 # print(y.pcap_name)
-                if get_key(ifname) == ('{' + y.pcap_name.split('{')[1]):
+                if get_ifname(ifname) == ('{' + y.pcap_name.split('{')[1]):
                     return x
                 else:
                     pass
@@ -27,4 +27,4 @@ def scapy_iface(ifname):
 
 if __name__ == '__main__':
     # print(ifaces)
-    print(scapy_iface('WLAN'))
+    print(scapy_iface('ens32'))

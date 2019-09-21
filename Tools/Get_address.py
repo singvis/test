@@ -2,7 +2,7 @@
 #-*- coding:UTF-8 -*-
 #欢迎关注微信公众号：点滴技术
 
-from netifaces import  ifaddresses ,AF_INET , AF_INET6 , AF_LINK
+from netifaces import  ifaddresses ,AF_INET , AF_INET6 , AF_LINK,AF_PACKET
 import platform
 
 
@@ -76,10 +76,10 @@ def get_ipv6_address(ifname):
         print('您的系统本程序暂时不支持，目前只支持Linux、Windows、MacOS')
 
 if __name__ == '__main__':
-    print('你的ipv4地址是：' + get_ip_address('WLAN'))
-    print('你的MAC地址是：' + get_mac_address('WLAN'))
+    # print('你的ipv4地址是：' + get_ip_address('WLAN'))
+    # print('你的MAC地址是：' + get_mac_address('WLAN'))
     # print('你的ipv6地址是：' + get_ipv6_address('WLAN'))
-    # print('你的ipv4地址是：' + get_ip_address('ens32'))
-    # print('你的MAC地址是：' + get_mac_address('ens32'))
+    print('你的ipv4地址是：' + get_ip_address('ens32'))
+    print('你的MAC地址是：' + get_mac_address('ens32'))
     # print('你的ipv6地址是：' + get_ipv6_address('ens32'))
     # print('你的MAC地址是：' + get_mac_address('ens32'))

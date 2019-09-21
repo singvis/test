@@ -12,7 +12,7 @@ from Tools.Get_address import get_mac_address  # 获取本机MAC地址
 from Tools.Scapy_iface import scapy_iface  # 获取scapy iface的名字
 
 
-def arp_request(ip_address, ifname='ens33'):
+def arp_request(ip_address, ifname):
     # 获取本机IP地址
     local_ip = get_ip_address(ifname)
     # 获取本机MAC地址
