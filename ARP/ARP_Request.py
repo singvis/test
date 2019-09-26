@@ -12,7 +12,7 @@ from Tools.Get_address import get_mac_address  # 获取本机MAC地址
 from Tools.Scapy_iface import scapy_iface  # 获取scapy iface的名字
 
 
-def arp_request(ip_address, ifname):
+def arp_request(dst_addr, ifname):
     # 获取本机IP地址
     local_ip = get_ip_address(ifname)
     # 获取本机MAC地址
@@ -22,19 +22,19 @@ def arp_request(ip_address, ifname):
                              hwsrc=local_mac,
                              hwdst='00:00:00:00:00:00',
                              psrc=local_ip,
-                             pdst=ip_address),
+                             pdst=dst_addr),
                          iface=scapy_iface(ifname),
                          timeout=1,
                          verbose=False)
         # print(result_raw.show())
-        return ip_address, result_raw.getlayer(ARP).fields.get('hwsrc')
+        return dst_addr, result_raw.getlayer(ARP).fields.get('hwsrc')
 
     except AttributeError:
-        return ip_address, None
+        return dst_addr, None
 
 
 if __name__ == "__main__":
     # Windows Linux均可使用
-    arp_result = arp_request('192.168.100.1', "WLAN")
-    # arp_result = arp_request('10.1.1.254', "ens33")
+    # arp_result = arp_request('192.168.100.1', "WLAN")
+    arp_result = arp_request('192.168.8.254', "ens32")
     print("IP地址:", arp_result[0], "MAC地址:", arp_result[1])
