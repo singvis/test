@@ -18,6 +18,8 @@ def arp_request(dst_addr, ifname):
     # 获取本机MAC地址
     local_mac = get_mac_address(ifname)
     try:  # 发送ARP请求并等待响应
+        #op=1表示请求，op=2表示响应
+        #当op=1,hwsrc=表示本地mac，hwdst表示广播(首包)，psrc表示本地IP，pdst表示目的IP
         result_raw = sr1(ARP(op=1,
                              hwsrc=local_mac,
                              hwdst='00:00:00:00:00:00',
@@ -26,7 +28,8 @@ def arp_request(dst_addr, ifname):
                          iface=scapy_iface(ifname),
                          timeout=1,
                          verbose=False)
-        # print(result_raw.show())
+        print(result_raw.show())
+        #返回目的IP地址，和目的MAC地址，getlayer(ARP)取整个ARP数据包，
         return dst_addr, result_raw.getlayer(ARP).fields.get('hwsrc')
 
     except AttributeError:
