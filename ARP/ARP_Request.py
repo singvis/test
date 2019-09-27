@@ -28,7 +28,7 @@ def arp_request(dst_addr, ifname):
                          iface=scapy_iface(ifname),
                          timeout=1,
                          verbose=False)
-        print(result_raw.show())
+        # print(result_raw.show())
         #返回目的IP地址，和目的MAC地址，getlayer(ARP)取整个ARP数据包，
         return dst_addr, result_raw.getlayer(ARP).fields.get('hwsrc')
 
