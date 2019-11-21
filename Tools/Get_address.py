@@ -2,7 +2,7 @@
 #-*- coding:UTF-8 -*-
 #欢迎关注微信公众号：点滴技术
 
-from netifaces import  ifaddresses ,AF_INET , AF_INET6 , AF_LINK,AF_PACKET
+from netifaces import  *
 import platform
 
 

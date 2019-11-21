@@ -39,5 +39,5 @@ def ntp_client():
     print("调整后时间是：", datetime.datetime.now())
 
 if __name__ == '__main__':
-    #适用于Linux和Windows
+    #适用于Windows
     ntp_client()

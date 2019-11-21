@@ -15,4 +15,6 @@ def get_ifname(ifname):
         return None
 
 if __name__ == "__main__":
-    print(get_ifname('ens32'))
+    #适用与Windows、Linux，获取网络接口卡或key
+    # print(get_ifname('ens32'))
+    print(get_ifname('WLAN'))
