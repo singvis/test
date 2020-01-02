@@ -1,0 +1,28 @@
+{%  extends 'base.html' %}
+
+{% block title %}
+	点滴技术
+{% endblock %}
+
+{% block body %}
+<div class="container-fluid">
+    <h1>{{ courseinfo.方向 }}</h1>
+    <p style="color: blue">摘要:{{ courseinfo.摘要 }}</p>
+    <p style="color: blue">主要内容</p>
+    <ol>
+    {% for x in courseinfo.主要内容 %}
+        <li>{{ x }}</li>
+    {% endfor %}
+    </ol>
+    <p style="color: blue">作者:{{ courseinfo.作者 }}</p>
+</div>
+{% endblock %}
+
+<!--p>注释方法一</p-->
+{# 注释方法二 #}
+{% comment %}
+注释方法三
+{% endcomment %}
+
+
+

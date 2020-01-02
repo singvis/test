@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    点滴技术
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>{{ summary }}</h1>
+
+    <!--显示日期 -->
+    {% if mytime is 6 or mytime is 0 %}
+    <p style="color: green"><strong>今天是周末</strong></p>
+    {% elif mytime > 3 %}
+    <p style="color: green"><strong>周三已经过去，周末快到了</strong></p>
+    {% else %}
+    <p style="color: green"><strong>今天是工作日</strong></p>
+    {% endif %}
+
+    <p style="color: red"> 技术分类 </p>
+    <ul>
+        {% for courses in courses_list %}
+            <li>{{ courses }}</li>
+        {% endfor %}
+    </ul>
+
+     <p style="color: red">目录</p>
+    <ul>
+        {% for t in zuoze_list %}
+            <li>方向:{{ t.方向 }} 作者:{{ t.作者 }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+

@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e749ca13-d3c4-48d5-836b-f27ccd49ac44" name="Default Changelist" comment="代码排版">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hacker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ICMP/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSH/Paramiko_SSH.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSH/Paramiko_sftp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/Socket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nmap_scan_port.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/进程线程/Thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/进程线程/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/进程线程/my_devices.py" afterDir="false" />
+    <list default="true" id="e749ca13-d3c4-48d5-836b-f27ccd49ac44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/My_Django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/data/courses_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/static/images/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/static/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/templates/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/templates/summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/views/ddjs_tmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/views/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_Django/views/write_to_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSH/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/九九乘法表.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/九九乘法表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自动巡检/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NTP/ntp.py" beforeDir="false" afterPath="$PROJECT_DIR$/NTP/ntp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSH/SSH_Paramiko.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSH/my_devices.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSH/my_devices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Telnet" beforeDir="false" afterPath="$PROJECT_DIR$/Telnet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/Get_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/Get_address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/Get_ifname.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/Get_ifname.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/Scapy_iface.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/Scapy_iface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSH/Paramiko_SSH.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSH/Paramiko_SSH.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NTP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -69,11 +76,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\01 Network\07 Program\python\test\network\test" />
       <recent name="E:\01 Network\07 Program\python\test\network" />
       <recent name="E:\01 Network\07 Program\python\test\network\Tools" />
       <recent name="E:\01 Network\07 Program\python\test\network\ARP" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\01 Network\07 Program\python\test\network\自动巡检" />
       <recent name="E:\01 Network\07 Program\python\test\network\进程线程" />
       <recent name="E:\01 Network\07 Program\python\test\network\ICMP" />
       <recent name="E:\01 Network\07 Program\python\test\network\ARP" />
@@ -91,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Paramiko_SSH">
+  <component name="RunManager" selected="Python.九九乘法表">
     <configuration name="自动巡检" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Network" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +115,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自动巡检/自动巡检.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="九九乘法表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Network" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/九九乘法表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Paramiko_sftp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
       <module name="Network" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,12 +175,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSH" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/My_Django" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSH/Paramiko_sftp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_Django/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Socket" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Network" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,12 +197,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/My_Django/My_Django" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Socket/Socket.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_Django/My_Django/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,12 +219,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自动巡检" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自动巡检/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Paramiko_SSH" />
-        <item itemvalue="Python.Paramiko_sftp" />
+        <item itemvalue="Python.九九乘法表" />
         <item itemvalue="Python.自动巡检" />
-        <item itemvalue="Python.Socket" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.Paramiko_SSH" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +286,21 @@
       <workItem from="1573620066680" duration="1295000" />
       <workItem from="1573660293647" duration="3661000" />
       <workItem from="1573961282963" duration="14196000" />
+      <workItem from="1574380296457" duration="99000" />
+      <workItem from="1574426903986" duration="5760000" />
+      <workItem from="1574566311145" duration="7481000" />
+      <workItem from="1574780025720" duration="4167000" />
+      <workItem from="1574874522487" duration="34000" />
+      <workItem from="1574917400006" duration="175000" />
+      <workItem from="1574918376138" duration="140000" />
+      <workItem from="1575002014235" duration="80000" />
+      <workItem from="1575086054839" duration="15990000" />
+      <workItem from="1575126158440" duration="8516000" />
+      <workItem from="1575173352725" duration="3608000" />
+      <workItem from="1575208394521" duration="957000" />
+      <workItem from="1575212104815" duration="375000" />
+      <workItem from="1575420850618" duration="23097000" />
+      <workItem from="1577350600133" duration="4195000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1561816765961</created>
@@ -347,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573568252128</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20191122">
+      <created>1574380364670</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574380364670</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +455,8 @@
     <MESSAGE value="代码排版" />
     <MESSAGE value="增加ntplib" />
     <MESSAGE value="优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+    <MESSAGE value="20191122" />
+    <option name="LAST_COMMIT_MESSAGE" value="20191122" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -421,17 +475,19 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/network$Paramiko_SSH.coverage" NAME="Paramiko_SSH Coverage Results" MODIFIED="1574268868349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SSH" />
-    <SUITE FILE_PATH="coverage/network$.coverage" NAME="自动巡检 Coverage Results" MODIFIED="1573749828300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动巡检" />
+    <SUITE FILE_PATH="coverage/network$Paramiko_SSH.coverage" NAME="Paramiko_SSH Coverage Results" MODIFIED="1575212134016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SSH" />
     <SUITE FILE_PATH="coverage/network$Paramiko_sftp.coverage" NAME="Paramiko_sftp Coverage Results" MODIFIED="1573986391587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SSH" />
+    <SUITE FILE_PATH="coverage/network$.coverage" NAME="九九乘法表 Coverage Results" MODIFIED="1577355803530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/network$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1568812039955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/network$Scapy_iface.coverage" NAME="Scapy_iface Coverage Results" MODIFIED="1569515677880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
     <SUITE FILE_PATH="coverage/network$nmap_scan_port__1_.coverage" NAME="nmap_scan_port (1) Coverage Results" MODIFIED="1569743785168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/network$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1567866877775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/network$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1575136330210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SSH" />
+    <SUITE FILE_PATH="coverage/network$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575212157831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/My_Django" />
     <SUITE FILE_PATH="coverage/network$ARP_request__2_.coverage" NAME="ARP_request (2) Coverage Results" MODIFIED="1568823192896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ARP" />
     <SUITE FILE_PATH="coverage/network$ARP_Scan.coverage" NAME="ARP_Scan Coverage Results" MODIFIED="1569596892148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ARP" />
+    <SUITE FILE_PATH="coverage/network$settings.coverage" NAME="settings Coverage Results" MODIFIED="1575212144575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/My_Django/My_Django" />
     <SUITE FILE_PATH="coverage/network$ipaddress.coverage" NAME="ipaddress Coverage Results" MODIFIED="1567780911536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
-    <SUITE FILE_PATH="coverage/network$test.coverage" NAME="test Coverage Results" MODIFIED="1572339758069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/network$test.coverage" NAME="test Coverage Results" MODIFIED="1575465639345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动巡检" />
     <SUITE FILE_PATH="coverage/network$ARP_Spoof.coverage" NAME="ARP_Spoof Coverage Results" MODIFIED="1569644189414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ARP" />
     <SUITE FILE_PATH="coverage/network$ARP_request.coverage" NAME="ARP_request Coverage Results" MODIFIED="1568811325107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ARP" />
     <SUITE FILE_PATH="coverage/network$Sort_ip.coverage" NAME="Sort_ip Coverage Results" MODIFIED="1568811194003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
